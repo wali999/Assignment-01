@@ -63,11 +63,12 @@ nav {
 .action {
     display: flex;
     justify-content: space-between;
-    margin: 100px 160px 100px 140px;
+    margin: 116px 160px 116px 140px;
 }
 
 .action-content {
-    max-width: 517px;
+    max-width: 417px;
+    /* align-items: center; */
 }
 
 .action-title {
@@ -78,4 +79,36 @@ nav {
 .banner-pic {
     width: 403px;
     border-radius: 48px;
+}
+
+/* productive style */
+.productive {
+    border-radius: 10px;
+    background-color: #e5e7ff;
+    margin: 116px 160px 137px 140px;
+    padding: 50px 142px;
+    align-items: center;
+}
+
+.productive-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    /* margin-bottom: 40px; */
+}
+
+.productive-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+
+.item-description {
+    color: rgba(0, 0, 0, 0.5);
 }
