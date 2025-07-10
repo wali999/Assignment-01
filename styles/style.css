@@ -112,3 +112,29 @@ nav {
 .item-description {
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+/* focus style */
+.focus {
+    justify-content: center;
+    align-items: center;
+    margin: 130px 160px 90px 140px;
+    padding: 70px auto;
+}
+
+.focus-content {
+    text-align: center;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus-pic {
+    border-radius: 48px;
+    max-width: 840px;
+    margin: 20px 150px 75px;
+}
