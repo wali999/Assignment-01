@@ -306,4 +306,5 @@ button:hover,
 input:hover {
     color: #252432;
     background-color: yellow;
+    font-size: 17px;
 }
